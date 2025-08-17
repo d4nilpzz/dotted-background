@@ -84,7 +84,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col flex-1 gap-2">
-              <label className="text-sm text-[#9f9fa9] mb-1">Space</label>
+              <label className="text-sm text-[#9f9fa9] mb-1">Spacing</label>
               <Input
                 type="number"
                 value={spacing}

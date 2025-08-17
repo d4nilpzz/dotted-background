@@ -2,7 +2,7 @@
 import React, { ReactNode } from "react";
 
 interface DottedBackgroundProps {
-  children?: ReactNode; // ahora es opcional
+  children?: ReactNode;
   className?: string;
   dotColor?: string;
   dotSize?: number;

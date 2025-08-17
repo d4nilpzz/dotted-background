@@ -1,5 +1,4 @@
-export const html_code = `
-import React, { ReactNode } from "react";
+export const html_code = `import React, { ReactNode } from "react";
 
 interface DottedBackgroundProps {
   children?: ReactNode;

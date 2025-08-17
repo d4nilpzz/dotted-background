@@ -6,6 +6,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { html_code } from "@/lib/code";
 
+import file from "../../public/file.svg";
+
 export default function Home() {
   const [copied, setCopied] = useState(false);
 
@@ -33,7 +35,7 @@ export default function Home() {
 
         <div className="flex text-left w-[680px] justify-start pr-8 border-x border-x-[#CCCCCC10] py-4 px-4">
           <p className="flex gap-2 text-[#9f9fa9] font-mono">
-            <Image src="/file.svg" width={20} height={20} alt="File icon" />
+            <Image src={file} width={20} height={20} alt="File icon" />
             DottedBackground.tsx
           </p>
         </div>

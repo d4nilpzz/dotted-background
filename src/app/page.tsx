@@ -55,14 +55,14 @@ export default function Home() {
         <div className="w-full h-[1px] bg-[#CCCCCC10]"></div>
         <DottedBackground className="flex flex-col w-[680px] border-x border-x-[#CCCCCC10] py-4 px-4">
           <ul className="text-[#9f9fa9] font-mono space-y-2">
-            <li><a target="_blank" href="https://github.com/d4nilpzz" className="hover:underline underline-offset-4">github ↗</a></li>
+            <li><a target="_blank" href="https://github.com/d4nilpzz/dotted-background" className="hover:underline underline-offset-4">github ↗</a></li>
             <li><a target="_blank" href="https://discord.d4nilpzz.dev" className="hover:underline underline-offset-4">discord ↗</a></li>
           </ul>
         </DottedBackground>
         <div className="w-full h-[1px] bg-[#CCCCCC10]"></div>
         <div className="mt-14">
           <p className="text-[#9f9fa9] text-sm font-mono">
-            Made by <a href="https://github.com/d4nilpzz" className="hover:underline underline-offset-4">d4nilpzz</a>
+            Made by <a target="_blank" href="https://github.com/d4nilpzz" className="hover:underline underline-offset-4">d4nilpzz</a>
           </p>
         </div>
       </div>
